@@ -17,7 +17,7 @@ class AppRouter extends StatelessWidget {
           child: switch (state) {
             AuthLoading()      => const _SplashScreen(),
             AuthNoUsers()      => const OnboardingScreen(),
-            AuthUserSelected() => _GalaxyRoot(user: (state as AuthUserSelected).user),
+            AuthUserSelected() => _GalaxyRoot(user: (state).user),
             AuthError()        => const OnboardingScreen(),
             _                  => const _SplashScreen(),
           },
