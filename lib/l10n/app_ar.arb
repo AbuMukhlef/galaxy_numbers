@@ -1,0 +1,39 @@
+{
+  "@@locale": "ar",
+
+  "appTitle": "مجرة الأرقام",
+  "@appTitle": {"description": "App title"},
+
+  "startJourney": "ابدأ رحلتك",
+  "yourHeroName": "ما اسمك البطولي؟",
+  "nameHint": "اكتبي اسمك هنا...",
+  "choosePath": "اختاري مسارك",
+  "readyToLaunch": "جاهزة للانطلاق!",
+  "enterGalaxy": "ادخلي المجرة",
+
+  "multiplicationPath": "مسار الضرب",
+  "fourOpsPath": "مسار العمليات الأربع",
+  "recommended": "مُوصى به",
+
+  "layer1": "الطبقة 1 — فهم بصري",
+  "layer2": "الطبقة 2 — تثبيت",
+  "layer3": "الطبقة 3 — السرعة",
+  "moonEnergy": "طاقة القمر",
+  "needEnergy": "تحتاجين 100% لفتح القمر التالي",
+  "challengeMode": "وضع التحدي",
+
+  "questionPrompt": "كم ناتج؟",
+  "tryAgain": "جربي مرة ثانية 👀",
+  "streak": "سلسلة",
+  "confirm": "✓ تأكيد",
+
+  "certTitle": "شهادة الإنجاز",
+  "certIntro": "تشهد مجرة الأرقام بأن",
+  "certAction": "أتقنت بكفاءة كاملة",
+  "saveImage": "حفظ كصورة",
+  "nextMoon": "القمر التالي",
+
+  "correct": "صحيح",
+  "energyGained": "طاقة مكتسبة",
+  "bestStreak": "أفضل سلسلة"
+}

@@ -1,0 +1,37 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "Galaxy Numbers",
+  "startJourney": "Start Your Journey",
+  "yourHeroName": "What's your hero name?",
+  "nameHint": "Type your name here...",
+  "choosePath": "Choose Your Path",
+  "readyToLaunch": "Ready to Launch!",
+  "enterGalaxy": "Enter the Galaxy",
+
+  "multiplicationPath": "Multiplication Path",
+  "fourOpsPath": "Four Operations Path",
+  "recommended": "Recommended",
+
+  "layer1": "Layer 1 — Visual Understanding",
+  "layer2": "Layer 2 — Practice",
+  "layer3": "Layer 3 — Speed",
+  "moonEnergy": "Moon Energy",
+  "needEnergy": "You need 100% to unlock the next moon",
+  "challengeMode": "Challenge Mode",
+
+  "questionPrompt": "What is the result?",
+  "tryAgain": "Try again 👀",
+  "streak": "Streak",
+  "confirm": "✓ Confirm",
+
+  "certTitle": "Achievement Certificate",
+  "certIntro": "Galaxy Numbers certifies that",
+  "certAction": "has fully mastered",
+  "saveImage": "Save as Image",
+  "nextMoon": "Next Moon",
+
+  "correct": "Correct",
+  "energyGained": "Energy Gained",
+  "bestStreak": "Best Streak"
+}
