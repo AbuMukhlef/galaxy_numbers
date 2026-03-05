@@ -63,9 +63,7 @@ class StreakCubit extends Cubit<StreakState> {
     final box = await Hive.openBox<StreakModel>(_boxName);
     var streak = box.get(userId);
 
-    if (streak == null) {
-      streak = StreakModel(userId: userId);
-    }
+    streak ??= StreakModel(userId: userId);
 
     final isMilestone = streak.recordPlay();
     await box.put(userId, streak);

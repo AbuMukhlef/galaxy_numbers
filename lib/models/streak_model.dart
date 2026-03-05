@@ -15,8 +15,9 @@ class StreakModel extends HiveObject {
     if(lastPlayDate==null){ currentStreak=1; }
     else {
       final diff=today.difference(lastPlayDate!).inDays;
-      if(diff==0) return false;
-      else if(diff==1) currentStreak++;
+      if(diff==0) {
+        return false;
+      } else if(diff==1) currentStreak++;
       else currentStreak=1;
     }
     lastPlayDate=today;

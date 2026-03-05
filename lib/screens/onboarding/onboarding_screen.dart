@@ -66,9 +66,11 @@ class _OnboardingScreenState extends State<OnboardingScreen>
     }
   }
   void _back() {
-    if (_page > 0) _pageCtrl.previousPage(
+    if (_page > 0) {
+      _pageCtrl.previousPage(
         duration: const Duration(milliseconds: 400),
         curve: Curves.easeInOutCubic);
+    }
   }
 
   @override

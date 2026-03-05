@@ -607,7 +607,7 @@ class _StreakBadge extends StatelessWidget {
 class StarFieldPainter extends CustomPainter {
   final double progress;
   static final _rng = math.Random(42);
-  static late final List<_Star> _stars = List.generate(
+  static final List<_Star> _stars = List.generate(
     180,
     (_) => _Star(
       x: _rng.nextDouble(),

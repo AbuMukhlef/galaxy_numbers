@@ -58,13 +58,11 @@ class AdaptiveCubit extends Cubit<AdaptiveState> {
     final hiveKey = '${_currentUserId}_$questionKey';
 
     var perf = box.get(hiveKey);
-    if (perf == null) {
-      perf = QuestionPerformance(
+    perf ??= QuestionPerformance(
         userId: _currentUserId!,
         questionKey: questionKey,
         lastSeen: DateTime.now(),
       );
-    }
 
     perf.recordAnswer(isCorrect: isCorrect, timeTaken: timeTaken);
     await box.put(hiveKey, perf);

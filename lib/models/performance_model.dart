@@ -22,7 +22,11 @@ class QuestionPerformance extends HiveObject {
 
   void recordAnswer({required bool isCorrect, required double timeTaken}) {
     attempts++;
-    if(isCorrect) correct++; else wrong++;
+    if(isCorrect) {
+      correct++;
+    } else {
+      wrong++;
+    }
     avgTime=((avgTime*(attempts-1))+timeTaken)/attempts;
     lastSeen=DateTime.now();
   }
